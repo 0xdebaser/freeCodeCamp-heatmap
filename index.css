@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+
+.legend-label {
+  width: 75px;
+  display: inline-block;
+  font-size: 0.9em;
+  margin-right: -4px;
+}
+
+.tooltip {
+  padding: 5px;
+  position: absolute;
+  background: azure;
+  opacity: 0;
+  text-align: left;
+  border: 1px solid navy;
+  border-radius: 3px;
+  max-width: 180px;
+}
+
+#legend {
+  border: 1px solid black;
+}
+
+#legend-label-container {
+  width: 900px;
+  margin: 0 auto;
+  display: flexbox;
+}
